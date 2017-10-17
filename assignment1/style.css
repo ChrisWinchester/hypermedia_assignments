@@ -1,0 +1,99 @@
+/*   CHRISTIAN OSCAR MWANICHETA 
+         05140002079
+    */
+/* this is the general css and for devices above 992*/
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+	  font-family: sans-serif;
+
+}
+
+#header{
+	margin: 35px 0 35px 0;
+	text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.row{
+  width: 100%;
+}
+
+.col{
+  width: 33.33%;
+  float: left;
+}
+.menu_info{
+  width: 90%;
+  height: 280px;
+	margin-left: auto;
+  margin-right: auto;
+	background-color: #7f8c8d;
+	border: 2px solid #34495e;
+	border-radius: 3px;
+}
+
+.menu_head{
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  float: right;
+  background-color: #2980b9;  
+}
+
+p{
+  padding: 25px 15px 5px 15px;
+}
+/*for devices above 768 and below 991*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .row{
+  width: 100%;
+  }
+  .col{
+     width: 50%;
+     float: left;
+  }
+  .col-extend{
+    width: 100%;
+    float: left;
+  }
+ .menu_info{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: #7f8c8d;
+  border: 2px solid #34495e;
+  border-radius: 3px;
+  }
+}
+/*for devices below 767*/
+@media only screen and (max-width: 767px) {
+  .row{
+  width: 100%;
+  }
+  .col{
+    width: 100%;
+  float: left;
+  }
+  .menu_info{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: #7f8c8d;
+  border: 2px solid #34495e;
+  border-radius: 3px;
+  }
+
+}
