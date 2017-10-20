@@ -1,0 +1,48 @@
+.bg-blue{
+ background-color:  #3498db;
+
+}
+ul{
+	text-align: center;
+}
+li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+li a{
+	color: black;
+}
+
+li a:hover{
+	text-decoration: none;
+	color:#ecf0f1;
+}
+
+#image{
+  margin-left: 25px;
+  margin-right: 30px;
+}
+#name{
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+#nav-list li a{
+	font-size: 18px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
