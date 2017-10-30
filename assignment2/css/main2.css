@@ -1,0 +1,18 @@
+.bg-blue{
+ background-color:  #3498db;
+ width: 100%;
+ border-radius: 0;
+ border:0;
+
+}
+ul{
+	text-align: center;
+}
+li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+li a{
+	color: black;
+}
