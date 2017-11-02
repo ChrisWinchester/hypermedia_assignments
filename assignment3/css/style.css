@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+
+.dish{
+	border:2px solid #3D8EB9;
+	background-color: #E7E7E7;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.dish-head{
+		text-align: center;
+	    font-size:20px;
+
+}
+
+p{
+	padding: 10px 10px;
+	font-size: 16px;
+}
+.nav ul li a:hover{
+	color: white;
+	background-color: #D2D7D3;
+}
+
+@media (min-width: 769px){
+	ul{
+		display: none;
+	}
+}
+
+/* small devices */
+
+@media (max-width: 768px){
+	li{
+		text-align: center;
+	}
+}
