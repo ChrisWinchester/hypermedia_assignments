@@ -80,11 +80,12 @@ function buildAndShowHomeHTML (categories) {
 
      
 
-      var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
-     
+      var chosenCategoryShortName = chooseRandomCategory(categories);
+
+
       var CategoryShortName = "'"+ chosenCategoryShortName +"'";
       
-      
+      console.log(CategoryShortName);
          var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName",CategoryShortName);
 
 
